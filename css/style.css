@@ -1,0 +1,63 @@
+﻿*{margin: 0; padding 0; font-family: 'Lato', sans-serif;}
+
+header{
+	text-align: center;
+	background: #FE5C5D;
+}
+
+.grid_content {
+	height: 341.5px;
+	text-align: center;	
+	display: grid;
+	grid-template-columns: repeat(4, 25vw);
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));	
+}
+
+a{
+	display: block;
+	height: 100%;
+	text-decoration: none;
+	color: white;
+}
+
+[class='grid-item grid-item1']{
+	background: url('../img/asia.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	max-height: 341.5px;
+	margin: 5px;
+	
+}
+
+[class='grid-item grid-item2']{
+	background: url('../img/cadastre.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	max-height: 341.5px;
+	margin: 5px;
+}
+
+[class='grid-item grid-item3']{
+	background: url('../img/pingbuller.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	max-height: 341.5px;
+	margin: 5px;
+}
+
+[class='grid-item grid-item4']{
+	background: url('../img/getlost.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	max-height: 341.5px;
+	margin: 5px;
+}
+
+.link_block1{
+	height: 100%;
+
+}
